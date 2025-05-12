@@ -10,6 +10,14 @@ Welcome to **AmazeTalk**, a real-time chatting web application built using the *
 
 ## 🖼️ Features
 
+![image](https://github.com/user-attachments/assets/eedafa38-5f00-49af-9ebd-142a4149edbd)
+
+![image](https://github.com/user-attachments/assets/551e87f5-91e3-4dd9-8f57-19ab65ec8bd6)
+
+![image](https://github.com/user-attachments/assets/6844a41d-f0d2-4255-b914-b28291c70250)
+
+
+
 - 🔐 **Secure Login & Registration with JWT:**  
   AmazeTalk offers secure login and registration using JWT token authentication. Users can personalize their accounts with profile pictures to enhance their experience.
 
