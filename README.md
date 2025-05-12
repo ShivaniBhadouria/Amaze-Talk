@@ -22,9 +22,6 @@ Welcome to **AmazeTalk**, a real-time chatting web application built using the *
 - 🔔 **Real-Time Notifications:**  
   Get instant notifications for new messages and updates.
 
-- 🌚 **Dark Mode:**  
-  Sleek, modern dark mode for a comfortable viewing experience in low-light environments.
-
 - 📱 **Responsive Mobile Design:**  
   Works seamlessly on smartphones, tablets, and desktops with a mobile-friendly layout.
 
