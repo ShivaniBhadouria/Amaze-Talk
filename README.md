@@ -1,6 +1,6 @@
 # AmazeTalk (MERN-Chat-App)
 
-🔗 **Live Demo:** [Visit Live Demo](https://quickchat-gs.vercel.app/)
+🔗 **Live Demo:** [Visit Live Demo](https://realtime-chat-app-one-topaz.vercel.app/auth)
 
 ## 📚 Project Overview
 
