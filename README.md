@@ -5,7 +5,7 @@
     🔗 <strong>Live Demo</strong>
   </a>
   |
-  <a href="https://github.com/ShivaniBhadouria">
+  <a href="https://github.com/ShivaniBhadouria/Amaze-Talk">
     📦 <strong>Source Code</strong>
   </a>
 </p>
@@ -31,47 +31,74 @@
 
 ---
 
-## ✨ Features
 
-- 🔐 **JWT Authentication** – Secure login and registration.
-- 🧑‍🎨 **User Profile Customization** – Add avatars to personalize your account.
-- 🔍 **Search Users** – By name or email.
-- ✉️ **Friend Requests** – Send, receive, and accept chat requests.
-- 💬 **One-on-One Chat** – Private and direct messaging.
-- 👥 **Group Chat** – Create and manage chat groups.
-- 🟢 **Online/Offline Status** – Real-time presence indicators.
-- ✍️ **Typing Indicator** – Know when someone is typing.
-- 🔔 **Live Notifications** – Instant message alerts.
-- 📱 **Fully Responsive** – Works on mobile, tablet, and desktop.
-- 🎞️ **Smooth UI** – Animations with Framer Motion.
+## ⚙️ How It Works
+
+### 🔁 Architecture
+
+1. **Frontend (React.js):** Handles UI and API requests to backend. Uses Socket.IO for real-time events.
+2. **Backend (Node.js + Express):** REST API to manage users, authentication, messages, groups, and notifications.
+3. **Database (MongoDB):** Stores user data, chats, groups, and messages.
+4. **Socket.IO:** Enables real-time features like live chat, typing indicators, online presence, etc.
+5. **JWT (JSON Web Tokens):** Used for secure authentication across sessions.
+
+---
+
+## 🔍 Features
+
+### ✅ Basic Features
+
+- 🔐 **JWT Authentication:** Secure login and registration.
+- 🧑‍🎨 **Profile Picture Support:** Upload and manage avatars.
+- 🔎 **Search Users:** Search by username or email.
+- ✉️ **Send & Accept Chat Requests:** Like friend requests—must accept before chatting.
+- 💬 **Private Chat:** One-on-one messaging.
+- 👥 **Group Chat:** Real-time group messaging with multiple users.
+- 🟢 **Online/Offline Status:** See who's currently active.
+- ✍️ **Typing Indicators:** Know when someone is typing.
+- 🔔 **Real-Time Notifications:** Get instantly notified for new messages.
+- 📱 **Responsive UI:** Works perfectly on mobile, tablet, and desktop.
+- 🎞️ **Framer Motion UI Effects:** Smooth transitions and user feedback animations.
+
+---
+
+## 🌟 Unique Features
+
+- 🔄 **Two-Way Friend Request System:** Only mutually accepted users can chat.
+- 🏷️ **Group Creation with Member Search:** Create and name groups with selected users instantly.
+- 🚦 **User Presence & Real-Time Sync:** Status indicators and real-time message syncing.
+- ⚡ **Live Typing & Read Receipts Ready:** Real-time UI indicators to enhance communication experience.
 
 ---
 
 ## 💻 Tech Stack
 
-| Technology      | Description                        |
-|----------------|------------------------------------|
-| **Frontend**    | React.js, Framer Motion            |
-| **Backend**     | Node.js, Express.js                |
-| **Database**    | MongoDB                            |
-| **Real-Time**   | Socket.IO                          |
-| **Auth**        | JWT (JSON Web Tokens)              |
+| Layer       | Technology                        |
+|------------|------------------------------------|
+| Frontend    | React.js, Axios, Framer Motion     |
+| Backend     | Node.js, Express.js                |
+| Database    | MongoDB                            |
+| Real-Time   | Socket.IO                          |
+| Auth        | JWT (JSON Web Tokens)              |
+| Styling     | Tailwind CSS                       |
+| Deployment  | Vercel (Frontend), Render (Backend) |
 
 ---
 
-## 🧰 Setup Instructions
+## 🧰 Installation & Setup
 
 ### 📦 Prerequisites
 
-Make sure you have these installed:
+Ensure you have the following installed:
 
-- Node.js (v14+)
+- Node.js v14+
 - npm or yarn
-- MongoDB Atlas account (or local MongoDB)
+- MongoDB Atlas account (or local MongoDB instance)
 
 ---
 
-### 🚀 Clone the Repository
+### 🔧 Backend Setup
 
 ```bash
-cd AmazeTalk-MERN-CHAT-APP
+cd backend
+npm install
