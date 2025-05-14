@@ -10,11 +10,14 @@ Welcome to **AmazeTalk**, a real-time chatting web application built using the *
 
 ## 🖼️ Features
 
-![image](https://github.com/user-attachments/assets/eedafa38-5f00-49af-9ebd-142a4149edbd)
+![Screenshot 2025-05-15 005940](https://github.com/user-attachments/assets/f6ffb3b6-9674-409a-9f84-305955ebbfdb)
+![Screenshot 2025-05-15 005946](https://github.com/user-attachments/assets/e1f411c6-3297-4530-b66c-768e1744cf66)
+![Screenshot 2025-05-15 010002](https://github.com/user-attachments/assets/f71e8d69-9927-4683-9206-ad4db734d6f3)
+![Screenshot 2025-05-15 010032](https://github.com/user-attachments/assets/b0d16a5d-eb8a-49da-83c0-a81f2a97cf27)
+![Screenshot 2025-05-15 010048](https://github.com/user-attachments/assets/474b566c-555d-4e0a-9a87-b2b2a04041eb)
+![Screenshot 2025-05-15 010055](https://github.com/user-attachments/assets/9d8271d6-45d3-4eb9-a243-bee90092ecb3)
 
-![image](https://github.com/user-attachments/assets/551e87f5-91e3-4dd9-8f57-19ab65ec8bd6)
 
-![image](https://github.com/user-attachments/assets/6844a41d-f0d2-4255-b914-b28291c70250)
 
 
 
