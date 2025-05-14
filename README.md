@@ -54,8 +54,6 @@
 - ✉️ **Send & Accept Chat Requests:** Like friend requests—must accept before chatting.
 - 💬 **Private Chat:** One-on-one messaging.
 - 👥 **Group Chat:** Real-time group messaging with multiple users.
-- 🟢 **Online/Offline Status:** See who's currently active.
-- ✍️ **Typing Indicators:** Know when someone is typing.
 - 🔔 **Real-Time Notifications:** Get instantly notified for new messages.
 - 📱 **Responsive UI:** Works perfectly on mobile, tablet, and desktop.
 - 🎞️ **Framer Motion UI Effects:** Smooth transitions and user feedback animations.
@@ -67,7 +65,7 @@
 - 🔄 **Two-Way Friend Request System:** Only mutually accepted users can chat.
 - 🏷️ **Group Creation with Member Search:** Create and name groups with selected users instantly.
 - 🚦 **User Presence & Real-Time Sync:** Status indicators and real-time message syncing.
-- ⚡ **Live Typing & Read Receipts Ready:** Real-time UI indicators to enhance communication experience.
+
 
 ---
 
@@ -75,7 +73,7 @@
 
 | Layer       | Technology                        |
 |------------|------------------------------------|
-| Frontend    | React.js, Axios, Framer Motion     |
+| Frontend    | React.js, Framer Motion           |
 | Backend     | Node.js, Express.js                |
 | Database    | MongoDB                            |
 | Real-Time   | Socket.IO                          |
@@ -85,20 +83,74 @@
 
 ---
 
-## 🧰 Installation & Setup
-
-### 📦 Prerequisites
-
-Ensure you have the following installed:
-
-- Node.js v14+
-- npm or yarn
-- MongoDB Atlas account (or local MongoDB instance)
-
----
-
-### 🔧 Backend Setup
-
-```bash
+🔧 Backend Setup
+bash
+Copy
+Edit
 cd backend
 npm install
+📄 Create a .env file in the /backend folder and add:
+
+env
+Copy
+Edit
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+▶️ Start Backend Server
+
+bash
+Copy
+Edit
+npm start
+📍 Server runs at: http://localhost:5000
+
+🎨 Frontend Setup
+bash
+Copy
+Edit
+cd ../frontend
+npm install
+📝 (Optional) Update API base URL in axios.js or .env if needed.
+
+▶️ Start Frontend App
+
+bash
+Copy
+Edit
+npm start
+📍 Frontend runs at: http://localhost:3000
+
+🔗 Live Demo
+Try it live here:
+🌐 https://realtime-chat-app-one-topaz.vercel.app/auth
+
+🧑‍💻 Contributing
+We welcome all contributions! Follow the steps below to contribute:
+
+🚀 How to Contribute
+🍴 Fork the repository
+
+📁 Create a new branch:
+
+bash
+Copy
+Edit
+git checkout -b my-feature
+💡 Make your changes
+
+✅ Commit and push:
+
+bash
+Copy
+Edit
+git commit -m "Add new feature"
+git push origin my-feature
+📥 Submit a Pull Request
+
+📄 License
+This project is licensed under the MIT License.
+You're free to use, modify, and distribute it.
+
+🙌 Acknowledgments
+Made with ❤️ by @shivanibhadouria
