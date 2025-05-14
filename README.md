@@ -1,4 +1,4 @@
-<h1 align="center">🚀 RealTimeChat – MERN Chat App</h1>
+<h1 align="center">🚀 AmazeTalk – MERN Chat App</h1>
 
 <p align="center">
   <a href="https://realtime-chat-app-one-topaz.vercel.app/auth">
