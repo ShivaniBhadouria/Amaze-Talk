@@ -54,7 +54,6 @@
 - ✉️ **Send & Accept Chat Requests:** Like friend requests—must accept before chatting.
 - 💬 **Private Chat:** One-on-one messaging.
 - 👥 **Group Chat:** Real-time group messaging with multiple users.
-- 🔔 **Real-Time Notifications:** Get instantly notified for new messages.
 - 📱 **Responsive UI:** Works perfectly on mobile, tablet, and desktop.
 - 🎞️ **Framer Motion UI Effects:** Smooth transitions and user feedback animations.
 
